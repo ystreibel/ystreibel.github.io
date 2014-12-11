@@ -10,7 +10,6 @@ excerpt_separator: "<!-- more -->"
 
 **dbyll** is brought to you by **[dbtek](http://ismaildemirbilek.com)**. Open sourced under [MIT](http://opensource.org/licenses/MIT) license.
 
-<!-- {% youtube NiYCgVKioI4 %} -->
 <!-- more -->  
 {% highlight ruby linenos %}
 def foo
