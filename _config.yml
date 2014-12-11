@@ -1,0 +1,32 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Yohann Streibel
+
+title: Yohann Streibel
+description: Yohann Streibel blog
+author:
+  name: Yohann Streibel
+  email: yohann.streibel@gmail.com
+  github: ystreibel
+  twitter: ystreibel
+  linkedin: ystreibel
+  bio: Cloud Engineer @MyScript.<br />JavaScript and HTML5 software developper. 
+  email_md5: fc0d8f4187e6eda0ab2d287f27da92a7
+
+rss_path: feed.xml
+all_posts_path: categories.html
+about_path: about.html
+
+BASE_PATH:
