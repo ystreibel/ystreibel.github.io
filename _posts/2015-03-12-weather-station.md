@@ -14,9 +14,9 @@ My thinking process start by searching on the Internet, if somebody did this, I 
 
 * **Bresser Weather Station** :
 
-![Base]({{ site.url }}/assets/media/images/WeatherStation/bresser_weather_station.jpg =100x150)
+![Base]({{ site.url }}/assets/media/images/WeatherStation/bresser_weather_station.jpg)
 
-![Sensor]({{ site.url }}/assets/media/images/WeatherStation/sensor.jpg =100x150)
+![Sensor]({{ site.url }}/assets/media/images/WeatherStation/sensor.jpg)
 
 ## Part 1 : Reverse Engineering the 433Mhz signal
 
