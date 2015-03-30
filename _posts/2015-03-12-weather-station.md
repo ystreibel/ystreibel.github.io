@@ -12,6 +12,12 @@ My thinking process start by searching on the Internet, if somebody did this, I 
 
 ## Technology
 
+* **Bresser Weather Station** :
+
+![Base]({{ site.url }}/assets/media/images/WeatherStation/bresser_weather_station.jpg)
+
+![Sensor]({{ site.url }}/assets/media/images/WeatherStation/sensor.jpg)
+
 ## Part 1 : Reverse Engineering the 433Mhz signal
 
 ## Part 2 : Analyze the 433Mhz signal
@@ -19,3 +25,4 @@ My thinking process start by searching on the Internet, if somebody did this, I 
 ## Part 3 : Reveiving packets with the Arduino/RaspberryPi
 
 ## Conclusion
+
