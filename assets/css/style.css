@@ -122,10 +122,10 @@ article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
 
-about h2:before,
-about h2:after,
-about h3:before,
-about h3:after {
+h2:before,
+h2:after,
+h3:before,
+h3:after {
   background: #ddd;
   content: "";
   display: block;
@@ -133,12 +133,12 @@ about h3:after {
   top: 50%;
   width: 400%;
 }
-about h2:before,
-about h3:before {
+h2:before,
+h3:before {
   right: 100%;
 }
-about h2:after,
-about h3:after {
+h2:after,
+h3:after {
   left: 100%;
 }
 
