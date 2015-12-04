@@ -121,6 +121,24 @@ article.home div a:hover, article.home pre a:hover { color: #222222; text-decora
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+
+h1:before,
+h1:after {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+    top: 50%;
+  width: 400%;
+}
+h1:before {
+  right: 100%;
+}
+h1:after {
+  left: 100%;
+}
+
 article.home h1,
 article.home h2,
 article.home h3,
