@@ -5,6 +5,8 @@ header: About
 group: navigation
 ---
 
+<about>
+
 ### Me
 
 <div class="row">
@@ -30,3 +32,5 @@ group: navigation
 
 ### Webinars
 * 12.06.2015: MyScript webinar - Discover MyScript Web Components and MyScriptJS (Nantes, France) [video](https://dev.myscript.com/discover-myscript-web-components-and-myscriptjs/) 
+
+</about>
