@@ -3,4 +3,6 @@
 </div>
 <!--<div class="page-header"></div>-->
 
-{{ content }}
+{% if page.header == "About" %} <article class="about">{{ content }}</article>{% else %} {{ content }} {% endif %}
+
+

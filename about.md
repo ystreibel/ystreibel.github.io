@@ -8,21 +8,22 @@ group: navigation
 ### Me
 
 <div class="row">
-    <div class="col-sm-3 col-xs-6">
+    <div id="picture" class="col-sm-4 col-xs-6">
         <img src="https://en.gravatar.com/userimage/17444821/a5c9698608b795821be1099a58c903bf.jpg?size=200">
     </div>
-    <div class="col-sm-7 col-xs-12">
-        Je travaille chez MyScript (<a href="http://www.myscript.com/">http://www.myscript.com/</a>) en tant que développer webservices (<a href="http://webdemo.myscript.com">http://webdemo.myscript.com</a>).
-
-        Étant passionné par les nouvelles technologies, je me suis destiné au métier de l'informatique. J'ai tout d'abord commencé ma formation par un DEUG MIAS à Vannes mais cette formation ne correspondait pas a mes attentes. Je me suis donc réorienté vers un DUT informatique, ce qui m'a permis de pratiquer énormément par les nombreux projets proposés ainsi que le stage de fin de deuxième année, que j 'ai pu effectué au sein de Guillemot Corporation ( http://www.guillemot.com/) en tant que développeur web.
-
-        Ayant l'envie de continuer mes études afin de me perfectionner sur le monde de l'entreprise, j'ai continué ma formation, en effectuant un Master MIAGE (Méthode Informatique Appliquées à la Gestion d'Entreprise) à Rennes. J'ai du faire plusieurs stages que j'ai réalisé dans des sociétés différentes. J'ai tout d'abord intégré une jeune startup appelé Novaleo ou j'ai développé une application d'envoi de fax par internet. Ce stage m'a permis de me rendre compte que la création et le bon fonctionnement d'une entreprise demandent un fort investissement personnel.
-        Puis fort de l'expérience citée précédemment, j'ai voulu faire la comparaison en travaillant au sein d'une grande SSII, Orange Business Services( http://www.orange-business.com). Dans cette société, j'ai participé à la création et l'élaboration d'un portail web de gestion des avantages et activités du comité d'entreprise.
-        Enfin pour mon stage de fin d'étude, j'ai intégré la société Sopra Group( http://www.sopragroup.com), ou j'ai été embauchée et dans laquelle je suis intervenu en tant que responsable technique d'applications JAVA/J2EE, développeur, intégrateur.
-
+    <div id="description" class="col-sm-8 col-xs-12">
+        Hi everyone, I'm Yohann.<br />
+        I'm fascinated to high tech most specifically to software development.<br /> 
+        <br />
+        I like to allow people access to services through Internet. That's why I'm working on web servers API.<br />
+        <br />
+        It's the same things for presenting the data provides by server API to final users.<br /> 
+        I also used to work on fronted application with native and web software development languages.<br />
+        I'm a fan of Polymer, web component and progressive app.<br />
+        <br />
+        I'm used to develop proof of concept, it's allowed me to test new technology and say to people "It's possible to do this!"<br />
     </div>
 </div>
-
 
 ### Presentations
 * 11.10.2015: Devoxx.be - Bringing handwriting recognition to your webapp with a Polymer component (Antwerp, Belgium) [video](https://www.youtube.com/watch?v=AdIbMvf6x6c) [slides](https://dev.myscript.com/Prez/Bringing%20handwriting%20recognition%20to%20your%20webapp.pptx)
