@@ -5,8 +5,7 @@ header: About
 group: navigation
 ---
 
-### Me
-
+### Who am I ?
 <div class="row">
     <div id="picture" class="col-sm-4 col-xs-6">
         <img src="https://en.gravatar.com/userimage/17444821/a5c9698608b795821be1099a58c903bf.jpg?size=200">
@@ -24,10 +23,13 @@ group: navigation
         I'm used to develop proof of concept, it's allowed me to test new technology and say to people "It's possible to do this!"<br />
     </div>
 </div>
+<hr />
 
 ### Presentations
 * 11.10.2015: Devoxx.be - Bringing handwriting recognition to your webapp with a Polymer component (Antwerp, Belgium) [video](https://www.youtube.com/watch?v=AdIbMvf6x6c) [slides](https://dev.myscript.com/Prez/Bringing%20handwriting%20recognition%20to%20your%20webapp.pptx)
 * 13.09.2015: Nantes JAVA User Group - Bringing handwriting recognition to your webapp with a Polymer component (Nantes, France) [video](https://www.youtube.com/watch?v=gUfYJ5CgCA4) [slides](https://docs.google.com/presentation/d/1xW6XlmTE9bnZnGIPxxzQABVZDFBW4b8AHqXqgs1d-Zg/edit?usp=sharing)
+<hr />
 
 ### Webinars
 * 12.06.2015: MyScript webinar - Discover MyScript Web Components and MyScriptJS (Nantes, France) [video](https://dev.myscript.com/discover-myscript-web-components-and-myscriptjs/) 
+<hr />

@@ -122,13 +122,6 @@ article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
 
-article.about h3 {
-	display: inline-block;
-	content: "";
-	border-bottom: 2px solid #e86f1a;
-	width: 100%;
-}
-
 article.about #description {
 	text-align: justify;
 	text-justify: inter-word;
