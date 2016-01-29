@@ -8,7 +8,7 @@ group: navigation
 ### Who am I ?
 <div class="row">
     <div id="picture" class="col-sm-4 col-xs-6">
-        <img src="https://en.gravatar.com/userimage/17444821/a5c9698608b795821be1099a58c903bf.jpg?size=200">
+        <img src="https://en.gravatar.com/userimage/17444821/9a2f3cb0c46e0b3349112b45989e228b.jpg?size=400">
     </div>
     <div id="description" class="col-sm-8 col-xs-12">
         Hi everyone, I'm Yohann.<br />
