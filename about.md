@@ -27,9 +27,9 @@ group: navigation
 
 ### Presentations
 * 11.10.2015: Devoxx.be - Bringing handwriting recognition to your webapp with a Polymer component (Antwerp, Belgium) [video](https://www.youtube.com/watch?v=AdIbMvf6x6c) [slides](https://dev.myscript.com/Prez/Bringing%20handwriting%20recognition%20to%20your%20webapp.pptx)
-* 13.09.2015: Nantes JAVA User Group - Bringing handwriting recognition to your webapp with a Polymer component (Nantes, France) [video](https://www.youtube.com/watch?v=gUfYJ5CgCA4) [slides](https://docs.google.com/presentation/d/1xW6XlmTE9bnZnGIPxxzQABVZDFBW4b8AHqXqgs1d-Zg/edit?usp=sharing)
+* 13.09.2015: Nantes JAVA User Group - Bringing handwriting recognition to your webapp with a Polymer component (Nantes, France) [video](https://www.youtube.com/watch?v=gUfYJ5CgCA4) [slides]({{ site.url }}/assets/media/images/presentations/2015/jug/ajoutez_de_la_reconnaissance_d_écriture_à_votre_webapp.pptx)
 <hr />
 
 ### Webinars
-* 12.06.2015: MyScript webinar - Discover MyScript Web Components and MyScriptJS (Nantes, France) [video](https://dev.myscript.com/discover-myscript-web-components-and-myscriptjs/) 
+* 12.06.2015: MyScript webinar - Discover MyScript Web Components and MyScriptJS (Nantes, France) [video](https://dev.myscript.com/discover-myscript-web-components-and-myscriptjs/) [slides]({{ site.url }}/assets/media/images/presentations/2015/webinar/MyScript_Web_Components_1.0_Webinar_V1.3.pptx)
 <hr />
