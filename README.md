@@ -1,6 +1,6 @@
 # ystreibel.github.io
 
-Application Android d'utilisation du WebService Météoloc
+My personnal static website use jekyll and Dbyll theme. [http://ystreibel.github.io/](http://ystreibel.github.io/) 
 
 ## Credits
 
