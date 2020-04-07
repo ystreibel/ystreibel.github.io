@@ -1,0 +1,22 @@
+language: ruby
+
+env:
+  global: NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+before_script: ./bin/build
+
+script: ./bin/test
+
+deploy:
+  provider: pages
+  github-token: $PRIVATE_TOKEN
+  target-branch: master
+  local-dir: _site
+  project-name: blog
+  email: $EMAIL
+  name: Deployment bot
+
+skip_cleanup: true
+
+on:
+  branch: source

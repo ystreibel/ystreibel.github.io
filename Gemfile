@@ -11,3 +11,5 @@ gem "rmagick", "~> 4.1"
 gem "jekyll-paginate", "~> 1.1"
 
 gem "jekyll", "~> 4.0"
+
+gem "html-proofer", "~> 3.15"

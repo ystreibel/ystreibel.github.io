@@ -21,7 +21,7 @@ module Jekyll
         next if filename =~ /_thumb\./
         filename_thumb = gen_thumb_name(filename)
         gen_thumb_image(gallery_directory, filename, filename_thumb)
-        images << '<a class="image-link" href="/' + File.join(@config, filename) + '" data-lightbox="' + @config + '"><img class="image-thumb" src="/' + File.join(@config, filename_thumb) + '"/></a>'
+        images << '<a class="image-link" href="/' + File.join(@config, filename) + '" data-lightbox="' + @config + '"><img alt="' + filename_thumb + '" class="image-thumb" src="/' + File.join(@config, filename_thumb) + '"/></a>'
       end
       '<div class="image-row"><div class="image-set">' + images.join + '</div></div>'
     end
