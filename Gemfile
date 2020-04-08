@@ -12,4 +12,5 @@ gem "jekyll-paginate", "~> 1.1", :group => :jekyll_plugins
 
 gem "jekyll-minifier", "~> 0.1.10", :group => :jekyll_plugins
 
+
 gem "html-proofer", "~> 3.15"
