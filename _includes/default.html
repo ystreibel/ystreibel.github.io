@@ -33,6 +33,8 @@
 	
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
+
+	{% seo %}
 </head>
 
 <body>
@@ -85,9 +87,12 @@
 
 		<footer>
 			<hr/>
-			<p>
-				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</a>
-			</p>
+			<div class="row">
+				<p class="col-sm-6 text-left">
+					&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</a>
+				</p>
+				<p class="col-sm-6 text-right">v{% project_version %}</p>
+			</div>
 		</footer>
 	</div>
 

@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
+version = $(git describe --tags --always)
+
 bundle exec jekyll build
 cd _site
 rm -rf .git
 git init .
 git add .
-git commit -m "New version"
+git commit -m "New version : " + ${version}
 git remote add origin https://github.com/ystreibel/ystreibel.github.io.git
-git push -u --force origin master
+git tag ${version}
+git push -u --force origin master --tags
