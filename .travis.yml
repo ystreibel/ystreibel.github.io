@@ -12,13 +12,11 @@ script: ./bin/test
 deploy:
   provider: pages
   github-token: $PRIVATE_TOKEN
-  target-branch: master
-  local-dir: _site
-  project-name: blog
+  target_branch: master
+  local_dir: _site
+  project_name: ystreibel.github.io
   email: $EMAIL
   name: Deployment bot
-
-skip_cleanup: true
-
-on:
-  branch: source
+  skip_cleanup: true
+  on:
+    branch: source

@@ -1,5 +1,5 @@
 # Jonas Genannt <jonas@brachium-system.net>
-require 'RMagick'
+require 'rmagick'
 include Magick
 
 module Jekyll
