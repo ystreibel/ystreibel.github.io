@@ -14,9 +14,6 @@ gem "jekyll-paginate", "~> 1.1", :group => :jekyll_plugins
 
 gem "jekyll-minifier", "~> 0.1.10", :group => :jekyll_plugins
 
-gem "jekyll_version_plugin", "~> 2.0", :group => :jekyll_plugins
-
 gem "jekyll-sitemap", "~> 1.4", :group => :jekyll_plugins
 
 gem "jekyll-seo-tag", "~> 2.6", :group => :jekyll_plugins
-
