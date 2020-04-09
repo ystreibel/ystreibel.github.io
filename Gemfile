@@ -17,3 +17,5 @@ gem "jekyll-minifier", "~> 0.1.10", :group => :jekyll_plugins
 gem "jekyll-sitemap", "~> 1.4", :group => :jekyll_plugins
 
 gem "jekyll-seo-tag", "~> 2.6", :group => :jekyll_plugins
+
+gem "jekyll-pwa-workbox", "~> 0.0.8", :group => :jekyll_plugins

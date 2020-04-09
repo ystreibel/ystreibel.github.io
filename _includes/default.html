@@ -26,15 +26,37 @@
 
 	<!-- Le fav and touch icons -->
 	<!-- Update these with your own images -->
-	<link rel="shortcut icon" href="{{ site.BASE_PATH }}/assets/ico/favicon.ico">
-	<link rel="apple-touch-icon" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-114x114.png">
+	<link rel="manifest" href="{{ site.BASE_PATH }}/manifest.json">
+
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Yohann Streibel's blog">
+	<meta name="apple-mobile-web-app-title" content="Yohann Streibel's blog">
+	<meta name="theme-color" content="#222">
+	<meta name="msapplication-navbutton-color" content="#222">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="msapplication-starturl" content="/">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="icon" type="image/png" sizes="57x57" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="57x57" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="72x72" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="72x72" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-72x72.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-96x96.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="96x96" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-96x96.png">
+	<link rel="icon" type="image/png" sizes="114x114" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="114x114" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-114x114.png">
+	<link rel="icon" type="image/png" sizes="144x144" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="144x144" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-144x144.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-192x192.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="{{ site.BASE_PATH }}/assets/ico/apple-touch-icon-192x192.png">
 	
 
 	<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.BASE_PATH }}/feed.xml">
 
 	{% seo %}
+
+
 </head>
 
 <body>
@@ -99,6 +121,7 @@
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/BetterTube/BetterTube.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/ImageGallery/lightbox.js"></script>
+	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/sw-loader.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
 </body>
 </html>
