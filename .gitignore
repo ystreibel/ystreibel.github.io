@@ -1,6 +1,6 @@
 _site/*
 .idea
-/Gemfile.lock
-Gemfile.lock
 _site/
 .jekyll-cache/
+.bundle
+vendor/bundle

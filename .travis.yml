@@ -1,17 +1,20 @@
+os: linux
+dist: xenial
 language: ruby
 
 env:
   global:
-      - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-      - JEKYLL_ENV=production
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+    - JEKYLL_ENV=production
 
 before_script: ./bin/build
 
 script: ./bin/test
 
 deploy:
+  strategy: git
   provider: pages
-  github-token: $PRIVATE_TOKEN
+  token: $PRIVATE_TOKEN
   target_branch: master
   local_dir: _site
   project_name: ystreibel.github.io
