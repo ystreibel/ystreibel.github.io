@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+export VERSION=$(git describe --tags --always)
+
+bundle exec jekyll build
+cd _site
+rm -rf .git
+git init .
+git add .
+git commit -m "New version : ${VERSION}"
+git remote add origin https://github.com/ystreibel/ystreibel.github.io.git
+git push -u --force origin master

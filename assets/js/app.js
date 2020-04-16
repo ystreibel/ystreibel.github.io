@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".sidebar").css("min-height",$(document).height());var e=$("#contact-list-secondary"),t=$("#contact-list");e.hide(),t.mouseenter(function(){e.fadeIn()}),t.mouseleave(function(){e.fadeOut()})});

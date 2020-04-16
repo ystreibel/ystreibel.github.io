@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+bundle exec htmlproofer --allow-hash-href --url-ignore "/#.*/" --internal-domains localhost:4000 --disable-external ./_site
